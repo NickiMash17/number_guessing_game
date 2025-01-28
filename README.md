@@ -43,7 +43,7 @@ A **fun and interactive game** built using **HTML**, **CSS**, and **JavaScript**
 ## 📸 Screenshots
 Game Interface
 ![Project screenshot](lightmode.jpeg)
-![Project screenshot](darkmode.jpeg)
+![Project screenshot](nightmode.jpeg)
 
 ## 🌟 Future Improvements
 

@@ -54,8 +54,8 @@ body.dark-mode .feedback.too-low {
 }
 
 body.dark-mode button {
-  background-color: #34495e; /* Slate Blue Buttons */
-  color: #ecf0f1; /* Light Text on Button */
+  background-color:#ecf0f1 ; /* Slate Blue Buttons */
+  color: #34495e; /* Light Text on Button */
 }
 
 body.dark-mode button:hover {
