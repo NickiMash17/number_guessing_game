@@ -66,18 +66,6 @@ body.dark-mode button:active {
   background-color: #16a085; /* Active Button State */
 }
 
-/* Input Fields */
-input[type="number"] {
-  background-color: #ecf0f1; /* Dark Input Background */
-  color: #ecf0f1; /* Light Text in Input */
-  border: 2px solid #7f8c8d; /* Light Border for Inputs */
-}
-
-input[type="number"]:focus {
-  border-color: #1abc9c; /* Light Green Focus Border */
-  box-shadow: 0 0 5px rgba(26, 188, 156, 0.6); /* Focus Glow */
-}
-
 body.dark-mode a {
   color: #16a085; /* Active Button State */
 }
