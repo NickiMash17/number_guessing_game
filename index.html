@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Number Guessing Game</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+  <!-- Toggle Button -->
+  <div class="mode-toggle-container">
+    <button id="toggle-mode">Switch to Dark Mode</button>
+  </div>
+
   <div class="container">
     <h1>Number Guessing Game</h1>
     <p>Guess a number between <span id="min">1</span> and <span id="max">100</span>:</p>
@@ -16,7 +20,15 @@
     <button id="reset-game">Reset</button>
     <p id="message"></p>
     <p id="attempts">Attempts: 0</p>
+
+    <!-- Footer Inside Container -->
+    <footer class="attribution">
+      <p>
+        Coded with ❤️ by <a href="https://github.com/NickiMash17">Nicolette Mashaba</a>.
+      </p>
+    </footer>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
