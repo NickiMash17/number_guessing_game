@@ -5,21 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Number Guessing Game</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="description" content="A fun number guessing game with multiple difficulty levels">
 </head>
 <body>
   <!-- Toggle Button -->
   <div class="mode-toggle-container">
-    <button id="toggle-mode">Switch to Dark Mode</button>
+    <button id="toggle-mode" aria-label="Toggle dark mode">Switch to Dark Mode</button>
   </div>
 
-  <div class="container">
+  <div class="container" role="main">
     <h1>Number Guessing Game</h1>
     <p>Guess a number between <span id="min">1</span> and <span id="max">100</span>:</p>
-    <input type="number" id="guess-input" placeholder="Enter your guess">
-    <button id="submit-guess">Submit</button>
-    <button id="reset-game">Reset</button>
-    <p id="message"></p>
-    <p id="attempts">Attempts: 0</p>
+    <input type="number" id="guess-input" placeholder="Enter your guess" aria-label="Your guess" min="1" max="100">
+    <button id="submit-guess" aria-label="Submit guess">Submit</button>
+    <button id="reset-game" aria-label="Reset game">Reset</button>
+    <p id="message" aria-live="polite"></p>
+    <p id="attempts" aria-live="polite">Attempts: 0</p>
 
     <!-- Footer Inside Container -->
     <footer class="attribution">
@@ -28,6 +29,11 @@
       </p>
     </footer>
   </div>
+
+  <!-- Audio elements -->
+  <audio id="correct-sound" src="https://assets.mixkit.co/active_storage/sfx/2013/2013-preview.mp3"></audio>
+  <audio id="wrong-sound" src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3"></audio>
+  <audio id="game-over-sound" src="https://assets.mixkit.co/active_storage/sfx/209/209-preview.mp3"></audio>
 
   <script src="script.js"></script>
 </body>
